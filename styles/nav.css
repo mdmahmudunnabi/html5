@@ -1,0 +1,34 @@
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li:hover{
+    background-color: burlywood;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: chartreuse;
+    padding: 0%;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+}
+
+.dropdown li{
+    padding: 0;
+    margin: 0%;
+}
